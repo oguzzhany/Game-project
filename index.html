@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bauget</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="game-intro">
+        <img src="./images/logo.png" alt="" class="logo-img" />
+        <br />
+        <button id="start-button">StartGame</button>
+        <p>U-s-e t-h-e l-e-f-t a-n-d r-i-g-h-t a-r-r-o-w t-o c-o-n-t-r-o-l t-h-e c-a-r!</p>
+        <img src="./images/arrows.png" alt="" class="arrows-img" />
+    </div>
+    <div class="game-over">
+        <p>Game Over!</p>
+        <button id="try-again-button">Try again</button>
+    </div>
+  
+    <div id="game-board">
+        <canvas id="canvas" width="1280" height="720"></canvas>
+    </div>
+    
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
