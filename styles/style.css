@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#game-board {
+    display: none;
+}
+
+
+.game-intro {
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: wheat;
+    max-width: 100%;
+    max-height: 100%;
+    background-image: url("/images/start-screen.png");
+    font-size: 90px;
+}
+
+.first-scene {
+    display: none;
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/first-scene.png");
+    background-position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.second-scene {
+    display: none;
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/second-scene.png");
+    background-position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.third-scene {
+    display: none;
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/third-scene.png");
+    background-position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fourth-scene {
+    display: none;
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/fourth-scene.png");
+    background-position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.final-scene {
+    display: none;
+    border: 5px solid black;
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/final-scene.png");
+    background-position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p {
+    text-align: center;
+    border: 3px solid green;
+}
+
+#play-button {
+    margin-left: 40%;
+    margin-top: 10%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+    /* position: static; */
+}
+
+#restart-button {
+    margin-left: 35%;
+    margin-top: 30%;
+    width: 400px;
+    height: 100px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+
+#start-button {
+    margin-left: 40%;
+    margin-top: 45%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+#next-button {
+    margin-left: 40%;
+    margin-top: 45%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+#fight-button {
+    margin-left: 75%;
+    margin-top: 45%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+
+#doom-button {
+    margin-left: 25%;
+    margin-top: 50%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+
+#menu-button {
+    margin-left: 40%;
+    margin-top: 45%;
+    width: 200px;
+    height: 60px;
+    color: red;
+    background-color: blue;
+    font-size: 50px;
+}
+
+.game-over {
+    display: none;
+    border: 5px solid rgb(159, 27, 27);
+    position: absolute;
+    height: 730px;
+    width: 1290px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/images/restart-scene.png");
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+canvas {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: red; */
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+/* .josh-hp {
+    display: block;
+    border: 5px solid black;
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+} */
